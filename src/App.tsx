@@ -39,8 +39,8 @@ function App() {
           posts != null &&
           posts.map((post:Post) => (
             <div key={post.id}>
-              <h2>{post.userId} - {post.title}</h2>
-              <p>{post.body}</p>
+              <h2>Título: {post.title}</h2>
+              <p>UserId: {post.userId}</p>
             </div>
           ))
         }
